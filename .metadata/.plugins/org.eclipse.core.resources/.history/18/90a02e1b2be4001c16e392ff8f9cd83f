@@ -1,0 +1,20 @@
+package practice002;
+
+public class AccountingAppPlus {
+
+	public static void main(String[] args) {
+		
+		double ValueOfSpply = 12345.0;
+		System.out.println("Value of supply : "+ValueOfSpply);                
+		System.out.println("VAT : "+(ValueOfSpply*0.1));               
+		System.out.println("Total : "+(ValueOfSpply + ValueOfSpply*0.1));
+		System.out.println("Expense : "+(ValueOfSpply*0.3));
+		System.out.println("Income : "+(ValueOfSpply - ValueOfSpply*0.3));
+		System.out.println("Dividend 1 : "+(ValueOfSpply - ValueOfSpply*0.3) * 0.5);
+		System.out.println("Dividend 2 : "+(ValueOfSpply - ValueOfSpply*0.3) * 0.3);
+		System.out.println("Dividend 3 : "+(ValueOfSpply - ValueOfSpply*0.3) * 0.2);
+		
+
+	}
+
+}
